@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import Game from "./Game";
 import styles from "./page.module.css";
 

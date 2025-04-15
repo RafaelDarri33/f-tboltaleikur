@@ -2,11 +2,9 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
-import styles from "./game.module.css"; // Import CSS Module
+import styles from "./game.module.css";
 
 const Game = ({ username }: { username: string }) => {
-  const router = useRouter();
-
   // State fyrir leikjahlutann
   const [paddleY, setPaddleY] = useState<number>(200);
   const [aiPaddleY, setAiPaddleY] = useState<number>(200);
@@ -241,11 +239,9 @@ const Game = ({ username }: { username: string }) => {
           {username} {playerScore} - {aiScore} AI
         </h2>
       </header>
-      {/* Wrapper-div til að miðja .gameFrame á síðunni */}
       <div className={styles.gameWrapper}>
         <div className={styles.gameFrame}>
           <div className={styles.gameContainer}>
-            {/* Countdown-overlay ef leikurinn ekki byrjaður */}
             {!gameStarted && (
               <div
                 style={{

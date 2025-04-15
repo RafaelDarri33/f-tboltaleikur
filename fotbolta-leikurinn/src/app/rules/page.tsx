@@ -14,7 +14,7 @@ const Rules = () => {
         <li>
           Regla 4: Leikurinn byrjar eftir 5 sek eftir að þú hefur farið inn í
           leik og eftir 5 sek er skjárinn læstur á meðan þú spilar ef þú vilt
-          hætta þá smelliru á "Viltu hætta?" takkann til þess að fara aftur á
+          hætta þá smelliru á Viltu hætta? takkann til þess að fara aftur á
           byrjunarreit.
         </li>
         <li>Það er því miður bara hægt að spila í tölvu.</li>
