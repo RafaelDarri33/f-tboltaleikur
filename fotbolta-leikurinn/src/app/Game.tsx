@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import { useRouter } from "next/navigation";
 import styles from "./game.module.css";
 
 const Game = ({ username }: { username: string }) => {
