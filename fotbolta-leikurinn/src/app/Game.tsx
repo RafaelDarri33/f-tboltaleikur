@@ -29,7 +29,6 @@ const Game = ({ username }: { username: string }) => {
 
   // Handler fyrir hreyfingu leikmannspallsins með örvatökum
   const handleKeyDown = (e: KeyboardEvent) => {
-    // Prevent default scroll behavior (ef þú vilt því)
     if (e.key === "ArrowUp" || e.key === "ArrowDown") {
       e.preventDefault();
     }
@@ -97,7 +96,6 @@ const Game = ({ username }: { username: string }) => {
   useEffect(() => {
     if (!gameStarted) return;
     const interval = setInterval(() => {
-      // Ef gameOver er nú þegar true, hættum við að uppfæra boltavöllinn
       if (gameOver) return;
 
       setBallX((prevX) => {

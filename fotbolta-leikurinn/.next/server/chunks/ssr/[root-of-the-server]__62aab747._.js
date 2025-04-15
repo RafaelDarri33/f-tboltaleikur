@@ -85,7 +85,6 @@ const Game = ({ username })=>{
     const ballRadius = 5;
     // Handler fyrir hreyfingu leikmannspallsins með örvatökum
     const handleKeyDown = (e)=>{
-        // Prevent default scroll behavior (ef þú vilt því)
         if (e.key === "ArrowUp" || e.key === "ArrowDown") {
             e.preventDefault();
         }
@@ -150,7 +149,6 @@ const Game = ({ username })=>{
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         if (!gameStarted) return;
         const interval = setInterval(()=>{
-            // Ef gameOver er nú þegar true, hættum við að uppfæra boltavöllinn
             if (gameOver) return;
             setBallX((prevX)=>{
                 const newX = prevX + ballSpeedX;
@@ -241,7 +239,7 @@ const Game = ({ username })=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 195,
+                    lineNumber: 193,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -252,7 +250,7 @@ const Game = ({ username })=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 198,
+                    lineNumber: 196,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -278,7 +276,7 @@ const Game = ({ username })=>{
                     children: "Keppa aftur?"
                 }, void 0, false, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 199,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -293,13 +291,13 @@ const Game = ({ username })=>{
                     children: "Viltu hætta?"
                 }, void 0, false, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 222,
+                    lineNumber: 220,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/Game.tsx",
-            lineNumber: 194,
+            lineNumber: 192,
             columnNumber: 7
         }, this);
     }
@@ -324,12 +322,12 @@ const Game = ({ username })=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 242,
+                    lineNumber: 240,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Game.tsx",
-                lineNumber: 241,
+                lineNumber: 239,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -357,21 +355,21 @@ const Game = ({ username })=>{
                                 children: countdown > 0 ? countdown : "GO!"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 252,
+                                lineNumber: 250,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$game$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].leftWall
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 271,
+                                lineNumber: 269,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$game$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].rightWall
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 272,
+                                lineNumber: 270,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -381,7 +379,7 @@ const Game = ({ username })=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 273,
+                                lineNumber: 271,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,7 +389,7 @@ const Game = ({ username })=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 274,
+                                lineNumber: 272,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -402,23 +400,23 @@ const Game = ({ username })=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/app/Game.tsx",
-                                lineNumber: 275,
+                                lineNumber: 273,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/Game.tsx",
-                        lineNumber: 249,
+                        lineNumber: 247,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 248,
+                    lineNumber: 246,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Game.tsx",
-                lineNumber: 247,
+                lineNumber: 245,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -437,18 +435,18 @@ const Game = ({ username })=>{
                     children: "Viltu hætta?"
                 }, void 0, false, {
                     fileName: "[project]/src/app/Game.tsx",
-                    lineNumber: 283,
+                    lineNumber: 281,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/Game.tsx",
-                lineNumber: 282,
+                lineNumber: 280,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/Game.tsx",
-        lineNumber: 239,
+        lineNumber: 237,
         columnNumber: 5
     }, this);
 };
