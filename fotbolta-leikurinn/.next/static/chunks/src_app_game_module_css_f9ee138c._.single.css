@@ -1,0 +1,108 @@
+/* [project]/src/app/game.module.css [app-client] (css) */
+.game-module__vq1o5W__gameFrame {
+  background-color: #fff;
+  border: 5px solid #07c;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 980px;
+  margin: 40px auto;
+  padding: 40px;
+  display: flex;
+  box-shadow: 0 4px 12px #00000040;
+}
+
+.game-module__vq1o5W__gameContainer {
+  border: 2px solid var(--border-color);
+  background: linear-gradient(145deg, #fff, #e6e6e6);
+  border-radius: 8px;
+  width: 900px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 16px #00000040;
+}
+
+.game-module__vq1o5W__gameContainer:before {
+  content: "";
+  background-color: var(--wall-color);
+  opacity: .8;
+  z-index: 2;
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.game-module__vq1o5W__gameContainer:after {
+  content: "";
+  opacity: .8;
+  z-index: 3;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-module__vq1o5W__leftWall {
+  background-color: var(--wall-color);
+  border-radius: 0 4px 4px 0;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 4px #0000004d;
+}
+
+.game-module__vq1o5W__rightWall {
+  background-color: var(--wall-color);
+  border-radius: 4px 0 0 4px;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 2px 0 4px #0000004d;
+}
+
+.game-module__vq1o5W__playerPaddle {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+}
+
+.game-module__vq1o5W__aiPaddle {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  left: 860px;
+}
+
+.game-module__vq1o5W__ball {
+  background-color: var(--ball-color);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  box-shadow: inset 0 0 4px #0003;
+}
+
+.game-module__vq1o5W__gameWrapper {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app_game_module_css_f9ee138c._.single.css.map*/

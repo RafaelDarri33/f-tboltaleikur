@@ -1,0 +1,41 @@
+/* [project]/src/app/rules/rules.module.css [app-client] (css) */
+.rules-module__5Y37nG__rules {
+  color: #333;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.rules-module__5Y37nG__rules h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.rules-module__5Y37nG__rules ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.rules-module__5Y37nG__rules li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.rules-module__5Y37nG__backLink {
+  color: #fff;
+  background-color: #07c;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/*# sourceMappingURL=src_app_rules_rules_module_fcf0314a.css.map*/

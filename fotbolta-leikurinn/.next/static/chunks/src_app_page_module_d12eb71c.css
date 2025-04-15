@@ -1,0 +1,69 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__landing {
+  text-align: center;
+  color: #333;
+  background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  font-family: Roboto, sans-serif;
+  box-shadow: 0 4px 12px #00000026;
+}
+
+.page-module___8aEwW__landing h1 {
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.page-module___8aEwW__landing p {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+}
+
+.page-module___8aEwW__landing form {
+  background-color: #ffffffd9;
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.page-module___8aEwW__landing label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.page-module___8aEwW__landing input {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: calc(100% - 24px);
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  transition: border-color .3s;
+}
+
+.page-module___8aEwW__landing input:focus {
+  border-color: #07c;
+}
+
+.page-module___8aEwW__landing button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #07c;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  transition: background-color .3s;
+}
+
+.page-module___8aEwW__landing button:hover {
+  background-color: #005fa3;
+}
+
+
+/*# sourceMappingURL=src_app_page_module_d12eb71c.css.map*/

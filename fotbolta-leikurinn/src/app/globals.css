@@ -1,17 +1,33 @@
-#game-container {
-  width: 900px;
-  height: 600px;
-  background-color: #eee;
-  position: relative;
-  margin: auto;
-  border: 2px solid black;
+/* ========================================
+   Global Reset & Box Sizing
+======================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-#left-wall, #right-wall {
-  position: absolute;
-  top: 0;
-  width: 10px;
-  height: 100%;
-  background-color: black;
+
+/* ========================================
+   Global Variables & Base Styles
+======================================== */
+:root {
+  --background-overlay: rgba(0, 0, 0, 0.4);
+  --primary-color: #0077cc;
+  --secondary-color: #cc0000;
+  --wall-color: #333;
+  --border-color: #444;
+  --ball-color: #28a745;
+  --global-font: 'Arial', sans-serif;
 }
-#left-wall { left: 0; }
-#right-wall { right: 0; }
+
+body {
+  font-family: var(--global-font);
+  line-height: 1.6;
+}
+
+/* bakgrunns litur */
+body {
+  background-color: lightgrey;
+}

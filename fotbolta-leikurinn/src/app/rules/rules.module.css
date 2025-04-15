@@ -1,0 +1,41 @@
+/* rules.module.css */
+
+.rules {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: left;
+  }
+  
+  .rules h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .rules ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .rules li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Takki til að fara aftur */
+  .backLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

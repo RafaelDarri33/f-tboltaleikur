@@ -1,0 +1,123 @@
+/* game.module.css */
+
+/* Wrapper til að miðja leikjahlutanum á vefsíðunni */
+.gameWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Þessi stilling tryggir að umlykkjandi container tekur 100% breidd og miðjar innihaldið */
+}
+
+/* Ytri rammi fyrir leikborðið (blá rammi) */
+.gameFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 980px; /* 900px fyrir leikborðið + padding */
+  margin: 40px auto;
+  padding: 40px;
+  border: 5px solid #0077cc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Leikborðið sjálft */
+.gameContainer {
+  width: 900px;
+  height: 600px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  position: relative;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+/* Pseudo-element fyrir miðlínu í leikborðinu */
+.gameContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background-color: var(--wall-color);
+  opacity: 0.8;
+  z-index: 2;
+}
+
+/* Pseudo-element fyrir miðringshringinn */
+.gameContainer::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  opacity: 0.8;
+  z-index: 3;
+}
+
+/* Vinstri veggur */
+.leftWall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background-color: var(--wall-color);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Hægri veggur */
+.rightWall {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background-color: var(--wall-color);
+  border-radius: 4px 0 0 4px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Leikmannspallur fyrir notanda */
+.playerPaddle {
+  position: absolute;
+  left: 20px;
+  width: 20px;
+  height: 100px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+/* AI pallur */
+.aiPaddle {
+  position: absolute;
+  left: 860px;
+  width: 20px;
+  height: 100px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
+
+/* Bolti */
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--ball-color);
+  border-radius: 50%;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.gameWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
